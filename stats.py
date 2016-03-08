@@ -9,4 +9,5 @@ def mean(x):
     >>>mean([1,2,3])
     2
     """
-    return sum(x)/len(x)
+
+    return np.sum(x)/np.len(x)
